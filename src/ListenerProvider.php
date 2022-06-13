@@ -52,7 +52,7 @@ class ListenerProvider implements ListenerProviderInterface
     }
 
     /**
-     * Определить, был ли он отслежен
+     * Определить был ли он отслежен
      *
      * @param string $listeners
      * @return bool
