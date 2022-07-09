@@ -23,7 +23,7 @@ class ListenerProvider implements ListenerProviderInterface
     /**
      * Зарегистрированный слушатель
      *
-     * @var array
+     * @var EventListenerInterface[]
      */
     protected array $listeners = [];
 
@@ -44,7 +44,7 @@ class ListenerProvider implements ListenerProviderInterface
     }
 
     /**
-     * @return array
+     * @return EventListenerInterface[]
      */
     public function getListeners(): array
     {
