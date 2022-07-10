@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace PCore\Event;
 
-use Psr\EventDispatcher\StoppableEventInterface;
 use PCore\Event\Contracts\EventDispatcherInterface;
+use Psr\EventDispatcher\StoppableEventInterface;
 
 /**
  * Class EventDispatcher
