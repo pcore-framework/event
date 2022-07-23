@@ -1,7 +1,15 @@
 {
     "name": "pcore/event",
+    "description": "The event component for PCore",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "php",
+        "pcore",
+        "pcore-framework",
+        "framework",
+        "pcore-component"
+    ],
     "homepage": "https://github.com/pcore-framework/event",
     "authors": [
         {
